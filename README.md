@@ -5,7 +5,7 @@ Yii2 Markdown Editor based on [Bootstrap Markdown](http://www.codingdrama.com/bo
 This component use folowing libraries:
 * [Marked](https://github.com/chjj/marked) -- a full-featured markdown parser and compiler, written in JavaScript.
 * [To markdown](https://github.com/domchristie/to-markdown) -- an HTML to Markdown converter written in javascript.
-* [Codemirror](https://github.com/codemirror/codemirror) -- JavaScript component that provides a code editor in the browser.
+* [Bootstrap Markdown](http://www.codingdrama.com/bootstrap-markdown/) -- JSimple Markdown editing tools that works!
 
 
 ## Installation
