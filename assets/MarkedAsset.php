@@ -1,6 +1,6 @@
 <?php
 
-namespace common\components\widgets\markdown\assets;
+namespace uran1980\yii\widgets\markdown\assets;
 
 use yii\web\AssetBundle;
 
