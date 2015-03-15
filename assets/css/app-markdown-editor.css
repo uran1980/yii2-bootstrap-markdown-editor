@@ -1,0 +1,8 @@
+.md-editor > textarea {
+    background: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+}
+.md-editor > .md-preview {
+    padding: 6px 12px;
+}
