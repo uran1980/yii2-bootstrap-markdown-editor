@@ -1,7 +1,7 @@
 {
     "name": "uran1980/yii2-bootstrap-markdown-editor",
     "description": "Yii2 Markdown Editor based on Bootstrap Markdown.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "yii2-extension",
     "keywords": [
         "yii2",
@@ -31,6 +31,7 @@
         "yiisoft/yii2": "~2",
         "uran1980/yii2-textarea-autosize": "*",
         "uran1980/yii2-jquery-essential": "*",
+        "uran1980/yii2-code-prettify": "*",
 
         "bower-asset/bootstrap-markdown": "2.*",
         "bower-asset/marked": "*",

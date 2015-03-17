@@ -19,6 +19,14 @@ var appMdEditor = appMdEditor || {};
                     position  = offset['top'] - 100
                 ;
                 $.scrollTo(position, 'slow', {easing: 'easeOutCubic'});
+
+                if ( typeof prettyPrint === 'function' ) {
+                    window.setTimeout(function () {
+                        var langClass = $(this).attr('class') || '';
+                        $('code').parent('pre').addClass('prettyprint linenums ' + langClass);
+                        prettyPrint();
+                    }, 150);
+                }
             });
         };
 

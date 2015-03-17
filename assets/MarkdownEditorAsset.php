@@ -17,5 +17,6 @@ class MarkdownEditorAsset extends AssetBundle
         'uran1980\yii\widgets\markdown\assets\BootstrapMarkdownAsset',
         'uran1980\yii\assets\TextareaAutosizeAsset',
         'uran1980\yii\assets\jQueryEssential\JqueryEssentialAsset',
+        'uran1980\yii\assets\codePrettify\CodePrettifyAsset',
     ];
 }
