@@ -1,7 +1,7 @@
 {
     "name": "uran1980/yii2-bootstrap-markdown-editor",
     "description": "Yii2 Markdown Editor based on Bootstrap Markdown.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "type": "yii2-extension",
     "keywords": [
         "yii2",
@@ -13,7 +13,7 @@
         "yii2-bootstrap-markdown-editor"
     ],
     "homepage": "https://github.com/uran1980/yii2-bootstrap-markdown-editor",
-    "time": "2015-03-12 10:00",
+    "time": "2015-03-21 23:30",
     "license": "MIT",
     "authors": [
         {

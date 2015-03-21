@@ -7,7 +7,24 @@ var appMdEditor = appMdEditor || {};
         /***********************************************************************
          *                              METHODS
          **********************************************************************/
-        // TODO
+        appMdEditor.fixPreviewButton = function (e) {
+            var previewButtonIcon = $(e.$textarea)
+                    .closest('div')
+                    .find('button[data-handler="bootstrap-markdown-cmdPreview"] span')
+            ;
+
+            if ( true === e.$isPreview ) {
+                previewButtonIcon
+                    .removeClass('glyphicon-search, glyphicon-eye-open')
+                    .addClass('glyphicon-eye-close')
+                ;
+            } else {
+                previewButtonIcon
+                    .removeClass('glyphicon-search, glyphicon-eye-close')
+                    .addClass('glyphicon-eye-open')
+                ;
+            }
+        };
 
         /***********************************************************************
          *                          EVENTS HANDLER

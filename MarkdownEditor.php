@@ -68,7 +68,14 @@ class MarkdownEditor extends InputWidget
 
         $js = <<<SCRIPT
 !(function ($) {
-    $('#{$this->options['id']}').markdown({$config});
+    $('#{$this->options['id']}').markdown($.extend({$config}, {
+        onShow: function (e) {
+            appMdEditor.fixPreviewButton(e);
+        },
+        onFocus: function (e) {
+            appMdEditor.fixPreviewButton(e);
+        }
+    }));
 })(window.jQuery);
 SCRIPT;
         $this->getView()->registerJs($js, \yii\web\View::POS_READY);
